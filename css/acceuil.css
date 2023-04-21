@@ -13,7 +13,6 @@
 /*NAV BARRE*/
 nav {
     background-color: white;
-    width: 100%;
     height: 75px;
     display: flex;
     flex-direction: row;
@@ -48,7 +47,7 @@ header {
 header div {
     width: 40%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 5%;
     text-align: center;
     color: white;
 }
@@ -74,12 +73,135 @@ button {
 }
 
 /*2ème nav */
-#2nd-nav {
+#nd-nav {
     width: 100%;
-    height: 800px;
+    height: 115px;
     background-color: #27334E;
+    color: white;
+    font-weight: bold;
+}
+
+#center {
+    margin: auto;
+    width: 80%;
+    height: 115px;
+}
+
+.case, #center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.case:hover img {
+    filter: brightness(500%);
+}
+
+.case img {
+    margin-right: 15px;
 }
 
 .case {
-    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 100%;
 }
+
+.case:focus img {
+    filter: brightness(500%);
+}
+
+/*color*/
+
+.case:focus:first-child {
+    background-color: #B3D84B;
+}
+.case:hover:first-child {
+    background-color: #B3D84B;
+}
+
+
+.case:focus:nth-child(2) {
+    background-color: #FF7B7B;
+}
+.case:hover:nth-child(2) {
+    background-color: #FF7B7B;
+}
+
+.case:focus:nth-child(3) {
+    background-color: #7BD0FF;
+}
+.case:hover:nth-child(3) {
+    background-color: #7BD0FF;
+}
+
+
+.case:focus:nth-child(4) {
+    background-color: #D8B94B;
+}
+.case:hover:nth-child(4) {
+    background-color: #D8B94B;
+}
+
+.case:focus:nth-child(5) {
+    background-color: #C291FF;
+}
+.case:hover:nth-child(5) {
+    background-color: #C291FF;
+}
+
+/*PAGE*/
+#page1 {
+    height: 500px;
+}
+
+/*MAIN SECTION*/
+#main-section {
+    background-color: #27334E;
+    height: 700px;
+}
+
+#main-section, #main-section div:last-child {
+    display: flex;
+    flex-direction: row;
+}
+
+#main-section div:first-child {
+    width: 40%;
+    padding: 100px;
+    color: white;
+    font-size: 25px;
+}
+
+#main-section p, #main-section div:first-child img {
+    margin-bottom: 35px;
+}
+
+#main-section div:first-child img {
+    width: 70%;
+    height: 100px;
+}
+
+#main-section div:nth-child(2) {
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-section div:nth-child(2) img {
+    width: 90%;
+}
+
+/*FOOTER*/
+footer {
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
