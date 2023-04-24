@@ -35,6 +35,10 @@ nav img {
     height: 50px;
 }
 
+nav p {
+    margin-bottom: 0;
+}
+
 /*HEADER*/
 header {
     height: 500px;
