@@ -40,7 +40,19 @@ nav p {
 }
 
 #size-big {
-    font-size: 20px;
+    font-size: 24px;
+}
+
+#size-normal {
+    font-size: 18px;
+}
+
+#size-little {
+    font-size: 14px;
+}
+
+#size-little, #size-normal, #size-big {
+    cursor: pointer;
 }
 
 /*HEADER*/
@@ -196,8 +208,6 @@ button {
 }
 
 .card {
-    min-height: 550px;
-    height: 100%;
     width: 350px;
     display: flex;
     flex-direction: column;
