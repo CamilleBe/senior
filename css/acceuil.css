@@ -39,6 +39,10 @@ nav p {
     margin-bottom: 0;
 }
 
+#size-big {
+    font-size: 20px;
+}
+
 /*HEADER*/
 header {
     height: 500px;
@@ -160,14 +164,105 @@ button {
 }
 
 /*PAGE*/
-#page1 {
-    height: 500px;
+#page1, #page2 {
+    margin: auto;
+    width: 70%;
+    margin-top: 75px;
+    padding-bottom: 75px;
 }
+
+.title, .container-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    height: 75px;
+    align-items: center;
+    border-radius: 50px;
+    color: white;
+}
+
+.title img {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.container-card {
+    width: 90%;
+    margin: auto;
+    margin-top: 75px;
+    justify-content: space-between;
+}
+
+.card {
+    min-height: 550px;
+    height: 100%;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 20px 1px #5b5b5b;
+    padding-bottom: 50px;
+}
+
+.card div:nth-child(2) {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    margin-bottom: 30px;
+}
+
+.card h4, .card p {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.card h4 {
+    padding-bottom: 20px;
+    font-size: 24px;
+}
+
+.card p {
+    font-size: 18px;
+    color: #27334E;
+}
+
+.button {
+    display: flex;
+    margin-top: -25px;
+    justify-content: space-between;
+}
+
+.button a {
+    margin: auto;
+}
+
+.button button {
+    background-color: #3E3E3E;
+}
+
+.none {
+    /*display: none;*/
+}
+
+/*couleur des pages*/
+#page1 .title, #page1 .card div:nth-child(2){
+    background-color: #a3c245;
+}
+
+#page2 .title, #page2 .card div:nth-child(2){
+    background-color: #FF7B7B;
+}
+
 
 /*MAIN SECTION*/
 #main-section {
     background-color: #27334E;
     height: 700px;
+    padding-bottom: 75px;
+    padding-top: 75px;
 }
 
 #main-section, #main-section div:last-child {
@@ -188,7 +283,7 @@ button {
 
 #main-section div:first-child img {
     width: 60%;
-    height: 100px;
+    height: 110px;
 }
 
 #main-section div:nth-child(2) {
