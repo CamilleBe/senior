@@ -4,10 +4,9 @@
     background-image: url("/img/monte-escalier/header.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 650px;
 }
 
-#header div{
+#titre-header{
     width: 50%;
     text-align: left;
     padding-top: 100px;
@@ -15,10 +14,14 @@
     margin: initial;
 }
 
+#typeform{
+    padding-top: 0;
+    margin-bottom: 60px;
+}
+
 #header p, #header h1 {
     text-shadow: 1px 1px 10px black;
 }
-
 
 /*MAIN*/
 #main {
@@ -111,5 +114,5 @@ footer p {
 }
 
 h3, p {
-  margin-bottom: 35px;
+    margin-bottom: 35px;
 }
