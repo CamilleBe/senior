@@ -10,12 +10,24 @@
     cursor: pointer;
 }
 
-#letter{
+/*#letter{
     display: none;
+}*/
+
+#size-big {
+    font-size: 24px;
 }
 
-#texte-case{
+#size-normal {
+    font-size: 18px;
+}
 
+#size-little {
+    font-size: 14px;
+}
+
+#letter {
+    cursor: pointer;
 }
 
 /*NAV BARRE*/
@@ -39,6 +51,7 @@ nav div:nth-child(2){
 nav a {
     width: 180px;
     display: inline-block;
+    height: 50px;
 }
 
 nav img {
@@ -335,8 +348,3 @@ footer {
     align-items: center;
     justify-content: center;
 }
-
-
-
-
-
