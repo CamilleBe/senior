@@ -104,6 +104,9 @@ button {
     border: none;
     margin-bottom: -45px; /* marge inférieure négative */
 }
+button:hover {
+    background-color: #1d5747;
+}
 
 #texte-main-header button{
     margin-bottom: 50px;
@@ -153,6 +156,10 @@ button {
 
 .case:focus img {
     filter: brightness(500%);
+}
+
+#bouton-card1 button:hover, #bouton-card2 button:hover, #bouton-card3  button:hover {
+    background-color: #737373;
 }
 
 /*color*/
